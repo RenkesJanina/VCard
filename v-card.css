@@ -1,0 +1,49 @@
+.card{
+    width: 50%;
+    margin : auto;
+    font-size : 16px;
+    font-family: 'Goudy Bookletter 1911', Tahoma, sans-serif;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #384CF3;
+    background-color: #D3BEE9;
+}
+
+.infophoto{
+    display: flex;
+    height : auto;
+    margin-bottom: 70px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.photo{
+    margin-bottom: 70px;
+    }
+
+.text{
+    font-size: 17px;
+}
+
+.info{
+    margin-bottom: 70px;
+}
+
+.card:hover{
+    background-color: antiquewhite;
+    color: #4C0768;
+}
+
+body{
+    justify-content: center;
+}
+
+img{
+    width: 150px;
+    height:auto;
+}
+
+em{
+    color: #384CF3;
+}
